@@ -11,6 +11,6 @@ const thirdDogName = 'Lana';
 
 const listElement = document.querySelector('.list');
 
-listElement.innerHTML = `<li>${firstDogImage} ${firstDogName}</li>
-<li>${secondDogImage} ${secondDogName}</li>
-<li>${thirdDogImage} ${thirdDogName}</li>`;
+document.querySelector('.first').innerHTML = `<h1>${firstDogName}</h1><img src="${firstDogImage}" alt="">`;
+document.querySelector('.second').innerHTML = `<h1>${secondDogName}</h1><img src="${secondDogImage}" alt="">`;
+document.querySelector('.third').innerHTML = `<h1>${thirdDogName}</h1><img src="${thirdDogImage}" alt="">`;
